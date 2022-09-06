@@ -5,9 +5,17 @@
     <title>LifeSpot</title>
     <!--Подключение стилей по относительному пути из внешнего файла-->
     <link href="../Static/CSS/index.css" rel="stylesheet" type="text/css">
-    <style>
-    </style>
 </head>
+<!--Хедер страницы находится сразу над тегом body-->
+<header id="header-index">
+    <!--Заголовок страницы-->
+    <h1>LifeSpot - прямые трансляции с улиц</h1>
+    <!--Параграф-->
+    <p>Покажем, что происходит прямо сейчас</p>
+    <!--Текстовое поле для поиска видео на странице-->
+    <label>Найти видео:</label>
+    <input class="SiteSearch" type="text" id="site-search">
+</header>
 <body>
     <!--Сайд-бар страницы-->
     <aside id="sidebar">
@@ -17,16 +25,6 @@
         </div>
     </aside>
     <main>
-        <!--Хедер страницы находится сразу над тегом body-->
-        <header id="header-index">
-            <!--Заголовок страницы-->
-            <h1>LifeSpot - прямые трансляции с улиц</h1>
-            <!--Параграф-->
-            <p>Покажем, что происходит прямо сейчас</p>
-            <!--Текстовое поле для поиска видео на странице-->
-            <label>Найти видео:</label>
-            <input class="SiteSearch" type="text" id="site-search">
-        </header>
         <div class="bordered">
             <div class="video-container">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/srlpC5tmhYs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
